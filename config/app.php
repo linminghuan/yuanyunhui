@@ -144,7 +144,7 @@ $app =  [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        
+        App\Providers\ViewComponentServiceProvider::class,  //视图组件提供者
 
 
     ],
